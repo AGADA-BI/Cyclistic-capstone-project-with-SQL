@@ -47,10 +47,10 @@ BigQuery is used to combine the various datasets into one dataset and clean it.
 Reason:  
 A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
 ### Combining the Data
-SQL Query: [Data Combining](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/01.%20Data%20Combining.sql)  
+SQL Query: [Data Combining](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/01.%20Data%20Combining.sql)  
 12 csv files are uploaded as tables in the dataset '2022_tripdata'. Another table named "combined_data" is created, containing 5,667,717 rows of data for the entire year. 
 ### Data Exploration
-SQL Query: [Data Exploration](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/02.%20Data%20Exploration.sql)  
+SQL Query: [Data Exploration](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/02.%20Data%20Exploration.sql)  
 Before cleaning the data, I am familiarizing myself with the data to find the inconsistencies.  
 
 Observations:  
