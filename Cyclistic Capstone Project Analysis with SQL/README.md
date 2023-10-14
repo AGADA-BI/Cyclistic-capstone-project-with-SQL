@@ -1,17 +1,16 @@
 # Google Data Analytics Capstone: Cyclistic Case Study
 Course: [Google Data Analytics Capstone: Complete a Case Study](https://www.coursera.org/learn/google-data-analytics-capstone)
 ## Introduction
-In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#ask), [Prepare](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#prepare), [Process](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#process), [Analyze](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), [Share](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/README.md#analyze-and-share), and [Act](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study#act).
+In this case study, I will perform many real-world tasks of a junior data analyst at a fictional company, Cyclistic. In order to answer the key business questions, I will follow the steps of the data analysis process: [Ask](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/README.md#ask), [Prepare](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/README.md#process), [Analyze](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/README.md#analyze-and-share), [Share](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/README.md#analyze-and-share), and [Act](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/README.md#act).
 ### Quick links:
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 04/03/23]  
   
 SQL Queries:  
-[01. Data Combining](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/01.%20Data%20Combining.sql)  
-[02. Data Exploration](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/02.%20Data%20Exploration.sql)  
-[03. Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)  
-[04. Data Analysis](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
+[01. Data Combining](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/01.%20Data%20Combining.sql)  
+[02. Data Exploration](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/02.%20Data%20Exploration.sql)  
+[03. Data Cleaning](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/03.%20Data%20Cleaning.sql)  
+[04. Data Analysis](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/04.%20Data%20Analysis.sql)  
   
-Data Visualizations: [Tableau](https://public.tableau.com/app/profile/somia.nasir/viz/bike-tripdata-casestudy/Dashboard1#1)  
 ## Background
 ### Cyclistic
 A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.   
@@ -86,15 +85,14 @@ Observations:
 11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 
 ### Data Cleaning
-SQL Query: [Data Cleaning](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/03.%20Data%20Cleaning.sql)  
+SQL Query: [Data Cleaning](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/03.%20Data%20Cleaning.sql)  
 1. All the rows having missing values are deleted.  
 2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.  
 3. Trips with duration less than a minute and longer than a day are excluded.
 4. Total 1,375,912 rows are removed in this step.
   
 ## Analyze and Share
-SQL Query: [Data Analysis](https://github.com/SomiaNasir/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/04.%20Data%20Analysis.sql)  
-Data Visualization: [Tableau](https://public.tableau.com/app/profile/somia.nasir/viz/bike-tripdata-casestudy/Dashboard1#1)  
+SQL Query: [Data Analysis](https://github.com/AGADA-BI/Cyclistic-capstone-project/blob/main/Cyclistic%20Capstone%20Project%20Analysis%20with%20SQL/04.%20Data%20Analysis.sql)   
 The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.  
 The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?  
 
